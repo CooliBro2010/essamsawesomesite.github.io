@@ -76,9 +76,11 @@
             </center>
          </p>
          <br>
+         <center>
          <button type="custom" id="randomnumberbutton" onclick="randomNumber()">
             Click For A Random Number!
          </button>
+         </center>
          <p id="numberoutput"></p>
          <script>
             function randomNumber() {
@@ -88,12 +90,6 @@
          </script>
          <!-- Random Number Ends -->
          <br>
-         <!-- hover css -->
-         <p style="text-align: center;">
-            Hover Over The Box :
-         </p>
-          <div class="csshover" onhover= style="width: 300px;">  </div>
-         <!-- hover css ends -->
          <br>
          <!-- Timer -->
          <h2>
@@ -102,11 +98,25 @@
             </center>
          </h2>
          <br>
+         <center>
          <button class="timerselect" id="timer1" type="custom" onclick="setTimeout(timer1, 60000);"> 1 Minute </button>
-         <button class="timerselect" id="timer5" type="custom" onclick="setTimeout(timer5, 300000);"> 5 Minutes </button>
-         <button class="timerselect" id="timer10" type="custom" onclick="setTimeout(timer10, 600000);"> 10 Minutes </button>
-         <button class="timerselect" id="timer15" type="custom" onclick="setTimeout(timer15, 900000);"> 15 Minutes </button>
-         <button class="timerselect" id="timer20" type="custom" onclick="setTimeout(timer20, 1200000);"> 20 Minutes </button>
+         </center>
+         <center>
+         <button class="timerselect" id="timer5" type="custom" onclick="setTimeout(timer5, 300000);"> 5 Minutes 
+            </button>
+         </center>
+         <center>
+         <button class="timerselect" id="timer10" type="custom" onclick="setTimeout(timer10, 600000);"> 10 Minutes
+         </button>
+         </center>
+         <center>
+         <button class="timerselect" id="timer15" type="custom" onclick="setTimeout(timer15, 900000);"> 15 Minutes
+         </button>
+         </center>
+         <center>
+         <button class="timerselect" id="timer20" type="custom" onclick="setTimeout(timer20, 1200000);"> 20 Minutes
+         </button>
+         </center>
          <script>
             function timer1() {
                alert ("1 Minute Timer Done!")

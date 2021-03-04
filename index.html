@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial scale 1.0">
+         <meta name="author" content="Essam Alkhouli">
+         <title> ESSAM'S AWESOME SITE OF COOLNESS </title>
+         <link rel="stylesheet" href="styles.css">
+         <link rel="icon" href="favicon.jpeg" type="image/jpeg" sizes="16x16">
+      </head>
+      <body onload="setTimeout(myAlert5, 5000); setTimeout(myAlert1m, 60000">
+         <script>
+            function myAlert5() {
+               alert ("You've been on 'Essam's Awesome Site Of Coolness' for 5 seconds!");
+            }
+            function myAlert1m() {
+               alert ("You've been on 'Essam's Awesome site of Coolness' for 1 Minute!")
+            }
+         </script>
+         <!-- dialog -->
+          <div onload="showDialog()">
+             <dialog id="dialog" hidden> 
+                <h1 id="topdialogtext"> 
+                   Welcome to Essam's Awesome Site Of Coolness!
+                </h1>
+                <h2 id="2topdialogtext">
+                   We Hope You Enjoy It!
+                </h2>
+                <center>
+                <img src="belugatakeoff.gif" id="belugagif">
+                </center>
+                <button type="custom" class="closedialog" onclick="closeDialog">
+                   Close
+                </button>
+             </dialog>
+         </div>
+         <!-- dialog ends -->
+         <!-- Header -->
+         <header>
+            <img src="favicon.jpeg" class="topicon">
+            <h1 id="topheader">
+               Essam's Awesome Site Of Coolness!
+            </h1>
+            <div>
+               <nav class="nav">
+                  |<a class="navlinks" href="index.html"> HOME </a>
+                  |<a class="navlinks" href="linkcenter.html"> LINK CENTER </a>
+                  |<a class="navlinks" href="aviationvideos.html"> AVIATION VIDEOS </a>
+               </nav>
+            </div>
+         </header>
+         <!-- Header Done -->
+         <!-- copytext thing -->
+         <center>
+          <textarea id="copytextarea" oncopy="copyFunction()">
+             Copy This Text!
+         </textarea>
+         </center>
+         <p id="copytextoutput"></p>
+         <script>
+            function copyFunction() {
+               document.getElementById("copytextoutput").innerHTML = "You Copied Some Text!";
+            }
+         </script>
+         <!-- copytext thing done -->
+         <br>
+         <!-- Random number -->
+         <h3>
+            <center>
+               Welcome to the random number button!
+            </center>
+         </h3>
+         <p>
+            <center>
+               Click on the button, then, a random number from 1 - 100 will be written under the button!
+            </center>
+         </p>
+         <br>
+         <button type="custom" id="randomnumberbutton" onclick="randomNumber()">
+            Click For A Random Number!
+         </button>
+         <p id="numberoutput"></p>
+         <script>
+            function randomNumber() {
+               document.getElementById("numberoutput").innerHTML = 
+               Math.floor(Math.random() * 101);
+            }
+         </script>
+         <!-- Random Number Ends -->
+         <br>
+         <!-- hover css -->
+         <p style="text-align: center;">
+            Hover Over The Box :
+         </p>
+          <div class="csshover" onhover="style= "width: 300px;>  </div>
+         <!-- hover css ends -->
+         <br>
+         <!-- Timer -->
+         <h2>
+            <center>
+               Click on One of the buttons to Set A Timer!
+            </center>
+         </h2>
+         <br>
+         <button class="timerselect" id="timer1" type="custom" onclick="setTimeout(timer1, 60000);"> 1 Minute </button>
+         <button class="timerselect" id="timer5" type="custom" onclick="setTimeout(timer5, 300000);"> 5 Minutes </button>
+         <button class="timerselect" id="timer10" type="custom" onclick="setTimeout(timer10, 600000);"> 10 Minutes </button>
+         <button class="timerselect" id="timer15" type="custom" onclick="setTimeout(timer15, 900000);"> 15 Minutes </button>
+         <button class="timerselect" id="timer20" type="custom" onclick="setTimeout(timer20, 1200000);"> 20 Minutes </button>
+         <script>
+            function timer1() {
+               alert ("1 Minute Timer Done!")
+            }
+            function timer5() {
+               alert ("5 Minute Timer Done!")
+            }
+            function timer10() {
+               alert ("10 Minute Timer Done!")
+            }
+            function timer15() {
+               alert ("15 Minute Timer Done!")
+            }
+            function timer20() {
+               alert ("20 Minute Timer Done!")
+            }
+         </script>
+         <!-- Timer Ends -->
+         <br>
+         <!-- Footer -->
+          <footer class="footer">
+             <p class="creditsline"> Created By <abbr title="Essam Alkhouli" class="creditsabbr"> 
+                <span id="Ecredits"> E </span> A </abbr>!
+                <div id="footeremail">
+                <p> Send Us A Message At : <a href="mailto: cooliessam@gmail.com"> cooliessam@gmail.com </a> </p>
+             </div>
+             <div class="bottomblock">
+            <p id="bottomblocktext">
+               This Website Is Created By Essam Alkhouli On March 2021.
+            </p>
+         </div>
+         </footer>
+         <!-- Footer Ends -->
+      </body>
+</html>

@@ -1,0 +1,87 @@
+.nav {
+   color: Red;
+}
+.navlinks {
+   text-decoration: none;
+   border: 3px;
+   border-radius: 25px; 
+}
+#topheader {
+   color: Lime;
+   border: 5px;
+   border-color: Red;
+}
+#randomnumberbutton {
+   background-color: Red;
+   border: 2px;
+   border-radius: 20px;
+}
+#numberoutput {
+   text-align: center;
+}
+#copytextarea {
+   text-align: center;
+   color: Red;
+   background-color: Lime;
+}
+#copytextoutput {
+   color: Blue;
+   text-align: center;
+}
+.csshover {
+   background-color: Red;
+   height : 100px;
+   width : 100px;
+}
+.footer {
+   display: block;
+   height: auto;
+   background-color: purple;
+}
+.creditsline {
+   color: Red;
+}
+.creditsabbr {
+   color: Red;
+}
+#belugagif {
+   border: 2px;
+   border-color: Lime;
+}
+#topdialogtext {
+   color: Khaki;
+}
+#2topdialogtext {
+   color: Blue;
+}
+#dialog {
+   border: 10px;
+   border-color: Black;
+}
+.closedialog {
+   background-color: Black;
+   color: white;
+   border: 5px;
+   border-radius: 20px;
+}
+#Ecredits {
+   color: Lime;
+}
+.timerselect {
+   text-align: center;
+   background-color: lightblue;
+   color: gold;
+}
+.bottomblock {
+   float: right;
+   border: 5px;
+   height: 150px;
+   width: 150px;
+   border-color: black;
+}
+#bottomblocktext {
+   color: Lime;
+}
+#footeremail {
+   float: right;
+}

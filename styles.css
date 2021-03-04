@@ -5,11 +5,14 @@
    text-decoration: none;
    border: 3px;
    border-radius: 25px; 
+   text-align: center;
+   background-color: Red;
 }
 #topheader {
    color: Lime;
    border: 5px;
    border-color: Red;
+   text-align: center;
 }
 #randomnumberbutton {
    background-color: Red;

@@ -1,11 +1,12 @@
 .nav {
    color: Red;
+   text-align: center;
 }
 .navlinks {
+   text-align: center;
    text-decoration: none;
    border: 3px;
    border-radius: 25px; 
-   text-align: center;
    background-color: Red;
 }
 #topheader {

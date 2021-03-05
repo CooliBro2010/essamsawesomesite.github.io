@@ -59,8 +59,9 @@
    color: Blue;
 }
 #dialog {
-   border: 10px;
+   border: solid;
    border-color: Black;
+   border-width: 10px;
 }
 .closedialog {
    background-color: Black;

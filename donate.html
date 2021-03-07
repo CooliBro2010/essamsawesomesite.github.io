@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial scale 1.0">
+         <meta name="author" content="Essam Alkhouli">
+         <title> ESSAM'S AWESOME SITE OF COOLNESS </title>
+         <link rel="stylesheet" href="styles.css">
+         <link rel="icon" href="favicon.jpeg" type="image/jpeg" sizes="16x16">
+      </head>
+      <body>
+         <!-- dialog -->
+             <dialog id="dialog"> 
+                <h1 id="topdialogtext"> 
+                   Welcome to Essam's Awesome Site Of Coolness!
+                </h1>
+                <h2 id="2topdialogtext">
+                   We Hope You Enjoy It!
+                </h2>
+                <center>
+                <img src="belugatakeoff.gif" id="belugagif">
+                </center>
+                <button type="custom" class="closedialog" onclick="closeDialog()">
+                   Close
+                </button>
+             </dialog>
+             <script>
+                var x = document.getElementById("dialog");
+                function closeDialog() {
+                   x.close();
+                   alert ("successfuly closed dialog!");
+                }
+             </script>
+         <!-- dialog ends -->
+         <!-- Header -->
+         <header>
+            <img src="favicon.jpeg" class="topicon">
+            <center>
+            <h1 id="topheader">
+               Essam's Awesome Site Of Coolness!
+            </h1>
+            </center>
+            <div>
+                  |<a class="navlinks" href="index.html"> HOME </a>
+                  |<a class="navlinks" href="linkcenter.html"> LINK CENTER </a>
+                  |<a class="navlinks" href="aviationvideos.html"> AVIATION VIDEOS </a>
+                  |<a class="navlinks" href="donate.html"> DONATE </a>
+                  |
+               </nav>
+            </div>
+         </header>
+         <!-- Header Done -->
+         <h1 id="donatetopheader">
+             Donate To Essam's Awesome Site!
+         </h1>
+         <iframe src="/donationform.html" width="100%" height="300" style="border:none;">  </iframe>
+         <br>
+         <!-- Footer -->
+          <footer class="footer">
+             <p class="creditsline"> Created By <abbr title="Essam Alkhouli" class="creditsabbr"> 
+                <span id="Ecredits"> E </span> A </abbr>!
+                <div id="footeremail">
+                <p> Send Us A Message At : <a href="mailto: essama@rmschool.org"> essama@rmschool.org </a> </p>
+                <p> <a href="donate.html"> Donate! </a> </p>
+             </div>
+             <div class="bottomblock">
+            <p id="bottomblocktext">
+               This Website Is Created By Essam Alkhouli On March 2021.
+            </p>
+         </div>
+         </footer>
+         <!-- Footer Ends -->
+      </body>
+</html>
